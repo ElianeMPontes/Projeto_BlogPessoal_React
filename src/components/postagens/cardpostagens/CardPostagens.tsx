@@ -17,7 +17,7 @@ function CardPostagem({ postagem }: CardPostagensProps) {
                         className='h-12 rounded-full'
                         alt={postagem.usuario?.nome} />
                     <h3 className='text-lg font-bold text-center uppercase'>
-                       Eliane Medeiros
+                    Eliane Medeiros
                     </h3>
                 </div>
                 <div className='p-4 '>
