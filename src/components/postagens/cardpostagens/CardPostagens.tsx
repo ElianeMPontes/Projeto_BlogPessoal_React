@@ -13,11 +13,11 @@ function CardPostagem({ postagem }: CardPostagensProps) {
             <div>
                 <div className="flex w-full bg-indigo-400 py-2 px-4 items-center gap-4">
                     <img
-                        src="https://github.com/elianempontes.png"
+                        src= {postagem.usuario?.foto ||"https://ik.imagekit.io/2zvbvzaqt/vecteezy_user-icon-in-trendy-flat-style-isolated-on-grey-background_5005837.jpg?updatedAt=1744726063905"}
                         className='h-12 rounded-full'
                         alt={postagem.usuario?.nome} />
                     <h3 className='text-lg font-bold text-center uppercase'>
-                    Eliane Medeiros
+                    {postagem.usuario?.nome}
                     </h3>
                 </div>
                 <div className='p-4 '>
